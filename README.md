@@ -4,7 +4,7 @@ STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) Dataset
 ## 1. Introduction
 
 ## 2. Tables
-The STInt dataset is stored in the format of MySQL database, which comprises the following tables:
+The STInt dataset is stored in the format of MySQL database, which comprises the 48 tables and 5 views as follows:
 ### 2.1 affiliation
 
 ### 2.2 article
