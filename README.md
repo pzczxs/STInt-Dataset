@@ -113,3 +113,4 @@ The STInt dataset is stored in the format of MySQL database, which comprises the
 
 ### 
 ## 3. References
+Shuo Xu, Zhen Liu, and Xin An. STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field. *Scientific Data*. (Under Review)
