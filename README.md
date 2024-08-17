@@ -5,114 +5,39 @@ STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) Dataset
 
 ## 2. Tables
 The STInt dataset is stored in the format of MySQL database, which comprises the 48 tables and 5 views as follows:
-### 2.1 affiliation
+### 2.1 tables
 
-### 2.2 article
+affiliation, article, article_annotation, article_author, article_author_affiliation, article_category, article_cited_article, article_descriptor, article_descriptor_qualifier, atc_code, author, category, cited_article, cited_patent, country_region, cpc, descriptor, descriptor_qualifier, descriptor_tree_number, drug, drug_article, drug_atc_code, drug_descriptor, drug_drugbank_id, drug_interaction, drug_manufacturer, drug_patent_original, drug_synonym, entity_category, inventor_applicant, ipc, manufacturer, non_patent, organization_linkage, patent, patent_annotation, patent_applicant, patent_cited_patent, patent_cpc, patent_inventor, patent_ipc, patent_non_patent, patent_original, patent_priority, qualifier, qualifier_tree_number, researcher_linkage, and synonym
 
-### 2.3 article_annotation
+### 2.2 views
 
-### 2.4 article_author
+view_citation_article_article, view_citation_article_patent, view_citation_drug_patent, view_citation_patent_article, and view_citation_patent_patent
 
-### 2.5 article_author_affiliation
+## 3. Source Codes
+### 3.1 Drug Entity Identification
+To recognize drug entity mentions, the two python files ``Step1_DrugEntityIdentification.py`` and ``Step2_CreateAnnotationTable.py`` in the *Drug entity identification* folder can be run sequentially to achieve this. It is worth noting that after running ``Step1_DrugEntityIdentification.py``, the identification results need to be manually checked. Based on the checked results, then one can run ``Step2_CreateAnnotationTable.py``.
 
-### 2.6 article_category
+Specifically, ``Step1_DrugEntityIdentification.py`` is divided into five sub-steps for drug entity identification: (1) Step 1.1: obtaining the drug and its synonym data; (2) Step 1.2: obtaining the titles and abstracts of articles; (3) Step 1.3: obtaining the titles and abstracts of patents; (4) Step 1.4: matching drug entities from the title and abstract of each article; (5) Step 1.5: matching drug entities from the title and abstract of each patent.
 
-### 2.7 article_cited_article
+To implement Step 1.1-1.3, the package ``pymysql`` is used to connect to the local MySQL database and obtain the data by executing the corresponding SQL statements. In order to implement Step1.4-1.5, the package ``re`` is used for matching drug entities, which in turn constructs the citations from articles to drugs and from patents to drugs.
 
-### 2.8 article_descriptor
+In addition, ``Step2_CreateAnnotationTable.py`` constructs the *article_annotation* table and *patent_annotation* table based on the drug identification results. It is mainly divided into three sub-steps: (1) Step 2.1: defining the preprocessing function, and the defined function has been annotated in ``Step2_CreateAnnotationTable.py``; (2) Step 2.2: creating the *article_annotation* table; (3) Step 2.3: creating the *patent_annotation* table.
 
-### 2.9 article_descriptor_qualifier
+### 3.2 Organization Disambiguation
+To disambiguate the organizations, four python files ``Step1_CalculateSimilarityOfOrganizationPairs.py``, ``Step2_UpdatePreferred_id.py``, ``Step3_UpdateLinkageTable.py``, and ``Step4_CreateOrganizationLinkageTable.py`` in the *Organization disambiguation* folder can be run sequentially.
 
-### 2.10 atc_code
+``Step1_CalculateSimilarityOfOrganizationPairs.py` obtains three types of organizations through the package ``pymysql``, and further calculates the similarity between different organization in the same category through the package ``fuzzywuzzy``. Finally, the calculation results need to be manually checked.
 
-### 2.11 author
+``Step2_UpdatePreferred_id.py`` further updates the *preferred_id* of the organization based on the disambiguation results.
 
-### 2.12 category
+``Step3_UpdateLinkageTable.py`` further updates the tables associated with three types of organizations with (1) *article_author_affiliation* table, (2) *drug_manufacturer* table, and (3) *patent_applicant* table, based on the update result of *preferred_id* in ``Step2_UpdatePreferred_id.py``.
 
-### 2.13 cited_article
+``Step4_CreateOrganizationLinkageTable.py`` creates the linkage among three types of organizations (i.e., affiliations, applicants, and manufacturers), and save them in the *organization_linkage* table.
 
-### 2.14 cited_patent
+### 3.3 Descriptive Statistics
+The descriptive statistics of the STInt dataset can be obtained by running ``DescriptiveStatistics.py``.
 
-### 2.15 country_region
-
-### 2.16 cpc
-
-### 2.17 descriptor
-
-### 2.18 descriptor_qualifier
-
-### 2.19 descriptor_tree_number
-
-### 2.20 drug
-
-### 2.21 drug_article
-
-### 2.22 drug_atc_code
-
-### 2.23 drug_descriptor
-
-### 2.24 drug_drugbank_id
-
-### 2.25 drug_interaction
-
-### 2.26 drug_manufacturer
-
-### 2.27 drug_patent_original
-
-### 2.28 drug_synonym
-
-### 2.29 entity_category
-
-### 2.30 inventor_applicant
-
-### 2.31 ipc
-
-### 2.32 manufacturer
-
-### 2.33 non_patent
-
-### 2.34 organization_linkage
-
-### 2.35 patent
-
-### 2.36 patent_annotation
-
-### 2.37 patent_applicant
-
-### 2.38 patent_cited_patent
-
-### 2.39 patent_cpc
-
-### 2.40 patent_inventor
-
-### 2.41 patent_ipc
-
-### 2.42 patent_non_patent
-
-### 2.43 patent_original
-
-### 2.44 patent_priority
-
-### 2.45 qualifier
-
-### 2.46 qualifier_tree_number
-
-### 2.47 researcher_linkage
-
-### 2.48 synonym
-
-### 2.49 view_citation_article_article
-
-### 2.50 view_citation_article_patent
-
-### 2.51 view_citation_drug_patent
-
-### 2.52 view_citation_patent_article
-
-### 2.53 view_citation_patent_patent
-
-### 
-## 3. References
+## 4. References
 [1] Shuo Xu, Zhen Liu, and Xin An. STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field. *Scientific Data*. (Under Review)
 
 [2] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
