@@ -7,7 +7,7 @@ In an era of rapid economic development, science, technology, and industry influ
 Last two decades witnessed significant progress in the science-technology or science-technology-industry interactions. Several perspectives have been investigated as follows: (1) thematic structure based linkages among these three resources; (2) academic inventors bridging science and technology; (3) concordance table among science, technology, and industry classification systems; (4) mutual citations among scholarly articles, patents, and products.
 
 A multi-source integrated dataset covering science, technology, and industry information, named as STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) dataset is developed. This dataset will further promote systematic understanding of the linkages among science, technology, and industry. 
-## 2. Tables
+## 2. Tables and Views
 The STInt dataset is stored in the format of MySQL database, which comprises the 48 tables and 5 views as follows:
 ### 2.1 tables
 
