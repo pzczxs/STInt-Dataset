@@ -1,4 +1,4 @@
-# STInt-Dataset
+![image](https://github.com/user-attachments/assets/56251bc7-7632-401c-9f24-f89574703626)# STInt-Dataset
 STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) Dataset
 
 ## 1. Introduction
@@ -44,12 +44,14 @@ The descriptive statistics of the STInt dataset can be obtained by running ``Des
 ## 4. References
 [1] Shuo Xu, Zhen Liu, and Xin An. STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field. *Scientific Data*. (Under Review)
 
-[2] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
+[2] Shuo Xu, Zhen Liu, Xin An, Hong Wang, and Hongshen Pang, 2024. Linkages among Science, Technology, and Industry on the basis of Main Path Analysis. *Journal of Informetrics* (Accepted). 
 
-[3] 徐硕，孙童菲，罗贵缘，苑洲桐，连佳欣，刘畅，2024. [分类体系双向映射视角下的科学-技术互动分析](https://doi.org/10.3969/j.issn.1672-6081.2024.04.001). *中国发明与专利*，Vol. 21，No. 4，pp. 4-15.
+[3] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
 
-[4] Shuo Xu, Zhen Liu, and Xin An, 2023. [Linkages among Science, Technology, and Industry](https://ceur-ws.org/Vol-3451/paper3.pdf). *The Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents and the 3rd AI + Informetrics (EEKE-AII 2023)*, pp. 13-15.
+[4] 徐硕，孙童菲，罗贵缘，苑洲桐，连佳欣，刘畅，2024. [分类体系双向映射视角下的科学-技术互动分析](https://doi.org/10.3969/j.issn.1672-6081.2024.04.001). *中国发明与专利*，Vol. 21，No. 4，pp. 4-15.
 
-[5] Shuo Xu, Ling Li, and Xin An, 2023. [Do Academic Inventors have Diverse Interests?](https://doi.org/10.1007/s11192-022-04587-0) *Scientometrics*, Vol. 128, No. 2, pp. 1023-1053. 
+[5] Shuo Xu, Zhen Liu, and Xin An, 2023. [Linkages among Science, Technology, and Industry](https://ceur-ws.org/Vol-3451/paper3.pdf). *The Joint Workshop of the 4th Extraction and Evaluation of Knowledge Entities from Scientific Documents and the 3rd AI + Informetrics (EEKE-AII 2023)*, pp. 13-15.
 
-[6] Shuo Xu, Ling Li, Xin An, Liyuan Hao, and Guancan Yang, 2021. [An Approach for Detecting the Commonality and Specialty between Scientific Publications and Patents](https://doi.org/10.1007/s11192-021-04085-9). *Scientometrics*, Vol. 126, No. 9, pp. 7445-7475. 
+[6] Shuo Xu, Ling Li, and Xin An, 2023. [Do Academic Inventors have Diverse Interests?](https://doi.org/10.1007/s11192-022-04587-0) *Scientometrics*, Vol. 128, No. 2, pp. 1023-1053. 
+
+[7] Shuo Xu, Ling Li, Xin An, Liyuan Hao, and Guancan Yang, 2021. [An Approach for Detecting the Commonality and Specialty between Scientific Publications and Patents](https://doi.org/10.1007/s11192-021-04085-9). *Scientometrics*, Vol. 126, No. 9, pp. 7445-7475. 
