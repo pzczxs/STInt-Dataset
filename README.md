@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/56251bc7-7632-401c-9f24-f89574703626)# STInt-Dataset
+# STInt-Dataset
 STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) Dataset
 
 ## 1. Introduction
