@@ -42,14 +42,18 @@ To disambiguate the organizations, four python files ``Step1_CalculateSimilarity
 The descriptive statistics of the STInt dataset can be obtained by running ``DescriptiveStatistics.py``.
 
 ## 4. References
-[1] Shuo Xu, Zhen Liu, and Xin An. STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field. *Scientific Data*. (Under Review)
+[1] Shuo Xu, Zhen Liu, and Xin An. [STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field](https://doi.org/10.1080/10494820.2025.2524838). *Scientific Data*, Vol. 12, pp. 1056. 
 
-[2] Shuo Xu, Zhen Liu, Xin An, Hong Wang, and Hongshen Pang, 2025. [Linkages among Science, Technology, and Industry on the basis of Main Path Analysis](https://doi.org/10.1016/j.joi.2024.101617). *Journal of Informetrics*, Vol. 19, No. 1, pp. 101617.
+[2] 徐硕，张跃富，安欣，2025. 全领域多层级科学−技术分类体系映射研究. *情报学报*. (Accepted)
 
-[3] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
+[3] Shuo Xu, Zhen Liu, Xin An, Hong Wang, and Hongshen Pang, 2025. [Linkages among Science, Technology, and Industry on the basis of Main Path Analysis](https://doi.org/10.1016/j.joi.2024.101617). *Journal of Informetrics*, Vol. 19, No. 1, pp. 101617.
 
-[4] 徐硕，孙童菲，罗贵缘，苑洲桐，连佳欣，刘畅，2024. [分类体系双向映射视角下的科学-技术互动分析](https://doi.org/10.3969/j.issn.1672-6081.2024.04.001). *中国发明与专利*，Vol. 21，No. 4，pp. 4-15.
+[4] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
 
-[5] Shuo Xu, Ling Li, and Xin An, 2023. [Do Academic Inventors have Diverse Interests?](https://doi.org/10.1007/s11192-022-04587-0) *Scientometrics*, Vol. 128, No. 2, pp. 1023-1053. 
+[5] 徐硕，孙童菲，罗贵缘，苑洲桐，连佳欣，刘畅，2024. [分类体系双向映射视角下的科学-技术互动分析](https://doi.org/10.3969/j.issn.1672-6081.2024.04.001). *中国发明与专利*，Vol. 21，No. 4，pp. 4-15.
 
-[6] Shuo Xu, Ling Li, Xin An, Liyuan Hao, and Guancan Yang, 2021. [An Approach for Detecting the Commonality and Specialty between Scientific Publications and Patents](https://doi.org/10.1007/s11192-021-04085-9). *Scientometrics*, Vol. 126, No. 9, pp. 7445-7475. 
+[6] Shuo Xu, Ling Li, and Xin An, 2023. [Do Academic Inventors have Diverse Interests?](https://doi.org/10.1007/s11192-022-04587-0) *Scientometrics*, Vol. 128, No. 2, pp. 1023-1053. 
+
+[7] Shuo Xu, Ling Li, Xin An, Liyuan Hao, and Guancan Yang, 2021. [An Approach for Detecting the Commonality and Specialty between Scientific Publications and Patents](https://doi.org/10.1007/s11192-021-04085-9). *Scientometrics*, Vol. 126, No. 9, pp. 7445-7475. 
+
+[8] Shuo Xu, Dongsheng Zhai, Feifei Wang, Xin An, Hongshen Pang, and Yirong Sun, 2019. [A Novel Method for Topic Linkages between Scientific Publications and Patents](https://doi.org/10.1002/asi.24175). *Journal of the Association for Information Science and Technology*, Vol. 70, No. 9, pp. 1026-1042.
