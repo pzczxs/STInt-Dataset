@@ -44,7 +44,7 @@ The descriptive statistics of the STInt dataset can be obtained by running ``Des
 ## 4. References
 [1] Shuo Xu, Zhen Liu, and Xin An, 2025a. [STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field](https://doi.org/10.1080/10494820.2025.2524838). *Scientific Data*, Vol. 12, pp. 1056. 
 
-[2] 徐硕，张跃富，安欣，2025. [全领域多层级科学−技术分类体系映射研究](https://doi.org/10.3772/j.issn.1000-0135.2025.08.001). *情报学报*，Vol. 44，No. 8，pp. 933-949.
+[2] 徐硕，张跃富，安欣，2025. [全领域多层级科学−技术分类体系映射研究](https://qbxb.istic.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=924). *情报学报*，Vol. 44，No. 8，pp. 933-949.
 
 [3] Shuo Xu, Zhen Liu, Xin An, Hong Wang, and Hongshen Pang, 2025b. [Linkages among Science, Technology, and Industry on the basis of Main Path Analysis](https://doi.org/10.1016/j.joi.2024.101617). *Journal of Informetrics*, Vol. 19, No. 1, pp. 101617.
 
