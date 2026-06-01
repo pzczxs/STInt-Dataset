@@ -44,7 +44,7 @@ The descriptive statistics of the STInt dataset can be obtained by running ``Des
 ## 4. References
 [1] Shuo Xu, Zhen Liu, and Xin An, 2025a. [STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field](https://doi.org/10.1080/10494820.2025.2524838). *Scientific Data*, Vol. 12, pp. 1056. 
 
-[2] Shuo Xu, Zhen Liu, and Xin An, 2026. [Interactions among Organizations from Science, Technology, and Industry on the basis of Percolation Theory: Case Study of Pharmaceutical Industry](https://doi.org/10.1007/s11192-026-05624-y). *Scientometrics*.
+[2] Shuo Xu, Zhen Liu, and Xin An, 2026. [Interactions among Organizations from Science, Technology, and Industry on the basis of Percolation Theory: Case Study of Pharmaceutical Industry](https://doi.org/10.1007/s11192-026-05624-y). *Scientometrics*, Vol. 131, No. 5, pp. 3145-3168. 
 
 [3] 徐硕，张跃富，安欣，2025. [全领域多层级科学−技术分类体系映射研究](https://qbxb.istic.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=924). *情报学报*，Vol. 44，No. 8，pp. 933-949.
 
