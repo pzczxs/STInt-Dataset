@@ -4,7 +4,7 @@ STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) Dataset
 ## 1. Introduction
 In an era of rapid economic development, science, technology, and industry influence each other and develop together. Scientific research and technological development promote the rapid progress of industries. In turn, industrial progress is also an important driving force for scientific research and technological development1. As early as the early 1990s, some scholars noticed the close connections among science, technology and industry, and conducted relevant research from the perspective of innovation. In the literature, scientific publications, patents, and products are usually viewed as respective proxies of scientific research, technological development, and industrial progress.
 
-Last two decades witnessed significant progress in the science-technology or science-technology-industry interactions. Several perspectives have been investigated as follows: (1) thematic structure based linkages among these three resources (Xu et al., 2019; 2021); (2) academic inventors bridging science and technology (Xu et al., 2023); (3) concordance table among science, technology, and industry classification systems (徐硕等，2024; 2025); (4) organizations across science, technology, and industry (Xu et al., 2026); (5) mutual citations among scholarly articles, patents, and products (Xu et al., 2024; 2025b).
+Last two decades witnessed significant progress in the science-technology or science-technology-industry interactions. Several perspectives have been investigated as follows: (1) thematic structure based linkages among these three resources (Xu et al., 2019; 2021); (2) academic inventors bridging science and technology (Xu et al., 2023); (3) concordance table among science, technology, and industry classification systems (徐硕等，2024, 2025; 安欣等, 2026); (4) organizations across science, technology, and industry (Xu et al., 2026); (5) mutual citations among scholarly articles, patents, and products (Xu et al., 2024; 2025b).
 
 A multi-source integrated dataset covering science, technology, and industry information, named as STInt (**S**cience-**T**echnology-**I**ndustry i**nt**eractions) dataset (Xu et al., 2025a) is developed. This dataset will further promote systematic understanding of the linkages among science, technology, and industry. 
 ## 2. Tables and Views
@@ -44,18 +44,20 @@ The descriptive statistics of the STInt dataset can be obtained by running ``Des
 ## 4. References
 [1] Shuo Xu, Zhen Liu, and Xin An, 2025a. [STInt Dataset: A Multi-Source Integrated Dataset Covering Science, Technology, and Industry Information in the Pharmaceutical Field](https://doi.org/10.1080/10494820.2025.2524838). *Scientific Data*, Vol. 12, pp. 1056. 
 
-[2] Shuo Xu, Zhen Liu, and Xin An, 2026. [Interactions among Organizations from Science, Technology, and Industry on the basis of Percolation Theory: Case Study of Pharmaceutical Industry](https://doi.org/10.1007/s11192-026-05624-y). *Scientometrics*, Vol. 131, No. 5, pp. 3145-3168. 
+[2] 安欣，龚珏，徐硕，2026. 科学技术产业关联视角下未来产业创新路径揭示和动态演化：以生物医药领域为例. *科学学与科学技术管理*.（录用）
 
-[3] 徐硕，张跃富，安欣，2025. [全领域多层级科学−技术分类体系映射研究](https://qbxb.istic.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=924). *情报学报*，Vol. 44，No. 8，pp. 933-949.
+[3] Shuo Xu, Zhen Liu, and Xin An, 2026. [Interactions among Organizations from Science, Technology, and Industry on the basis of Percolation Theory: Case Study of Pharmaceutical Industry](https://doi.org/10.1007/s11192-026-05624-y). *Scientometrics*, Vol. 131, No. 5, pp. 3145-3168. 
 
-[4] Shuo Xu, Zhen Liu, Xin An, Hong Wang, and Hongshen Pang, 2025b. [Linkages among Science, Technology, and Industry on the basis of Main Path Analysis](https://doi.org/10.1016/j.joi.2024.101617). *Journal of Informetrics*, Vol. 19, No. 1, pp. 101617.
+[4] 徐硕，张跃富，安欣，2025. [全领域多层级科学−技术分类体系映射研究](https://qbxb.istic.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=924). *情报学报*，Vol. 44，No. 8，pp. 933-949.
 
-[5] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
+[5] Shuo Xu, Zhen Liu, Xin An, Hong Wang, and Hongshen Pang, 2025b. [Linkages among Science, Technology, and Industry on the basis of Main Path Analysis](https://doi.org/10.1016/j.joi.2024.101617). *Journal of Informetrics*, Vol. 19, No. 1, pp. 101617.
 
-[6] 徐硕，孙童菲，罗贵缘，苑洲桐，连佳欣，刘畅，2024. [分类体系双向映射视角下的科学-技术互动分析](https://doi.org/10.3969/j.issn.1672-6081.2024.04.001). *中国发明与专利*，Vol. 21，No. 4，pp. 4-15.
+[6] Shuo Xu, Xinyi Ma, Hong Wang, Xin An, and Ling Li, 2024. [A Recommendation Approach of Scientific Non-Patent Literature on the basis of Heterogeneous Information Network](https://doi.org/10.1016/j.joi.2024.101557). *Journal of Informetrics*, Vol. 18, No. 4, pp. 101557. 
 
-[7] Shuo Xu, Ling Li, and Xin An, 2023. [Do Academic Inventors have Diverse Interests?](https://doi.org/10.1007/s11192-022-04587-0) *Scientometrics*, Vol. 128, No. 2, pp. 1023-1053. 
+[7] 徐硕，孙童菲，罗贵缘，苑洲桐，连佳欣，刘畅，2024. [分类体系双向映射视角下的科学-技术互动分析](https://doi.org/10.3969/j.issn.1672-6081.2024.04.001). *中国发明与专利*，Vol. 21，No. 4，pp. 4-15.
 
-[8] Shuo Xu, Ling Li, Xin An, Liyuan Hao, and Guancan Yang, 2021. [An Approach for Detecting the Commonality and Specialty between Scientific Publications and Patents](https://doi.org/10.1007/s11192-021-04085-9). *Scientometrics*, Vol. 126, No. 9, pp. 7445-7475. 
+[8] Shuo Xu, Ling Li, and Xin An, 2023. [Do Academic Inventors have Diverse Interests?](https://doi.org/10.1007/s11192-022-04587-0) *Scientometrics*, Vol. 128, No. 2, pp. 1023-1053. 
+
+[9] Shuo Xu, Ling Li, Xin An, Liyuan Hao, and Guancan Yang, 2021. [An Approach for Detecting the Commonality and Specialty between Scientific Publications and Patents](https://doi.org/10.1007/s11192-021-04085-9). *Scientometrics*, Vol. 126, No. 9, pp. 7445-7475. 
 
 [9] Shuo Xu, Dongsheng Zhai, Feifei Wang, Xin An, Hongshen Pang, and Yirong Sun, 2019. [A Novel Method for Topic Linkages between Scientific Publications and Patents](https://doi.org/10.1002/asi.24175). *Journal of the Association for Information Science and Technology*, Vol. 70, No. 9, pp. 1026-1042.
